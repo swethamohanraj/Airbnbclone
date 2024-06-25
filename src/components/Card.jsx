@@ -100,7 +100,7 @@ function Card({card}) {
          <p className='card-details'>{card.dist}</p>
         <p className='card-details'>{card.date}</p>
         <p className='card-details2'>
-            <span style={{fontWeight: "600"}}>${card.price} </span>&nbsp; Night</p>
+            <span style={{fontWeight: "600"}}>{card.price} </span>&nbsp; Night</p>
     </div>
 
     
